@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
+// Desafio Super Trunfo - Estados
+// Tema 3 - Comparação entre as cartas e menu de opções
 // Parte inicial com scanf para ler os dados
 // Parte final com printf para imprimir os dados
 
@@ -89,7 +89,7 @@ int main() {
     PIBperCapita2 = (float) (PIB2*1000000000) / Populacao2;
 
     printf("\n");
-
+    //Descrição do menu de opções
     printf("### Comparação de atributos das cartas###\n");    
     printf("Menu de Opções abaixo: \n");    
     printf("Opção 1 -> População:\n");
@@ -101,6 +101,7 @@ int main() {
     printf("Digite a opçao do atributo que deseja comparar: ");
     scanf("%d", &opcao);
 
+    //Utilização do Switch para escolha do menu de opções
     switch (opcao)  {
 
     case 1:
