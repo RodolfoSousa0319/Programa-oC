@@ -13,6 +13,8 @@ int main() {
     printf ("========================== \n");
     printf ("  Cadastro do Território \n");
     printf ("========================== \n");
+    printf ("--Cadastre 5 territórios-- \n");
+    
 
 
    return 0; 
